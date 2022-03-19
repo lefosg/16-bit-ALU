@@ -1,6 +1,6 @@
 LIBRARY ieee ;
 USE ieee.std_logic_1164.all ;
-------------	ALLAGH SHMATOS / AINVERT ------------
+------------	SIGNAL INVERT / AINVERT ------------
 entity aInvert1 is
 	port (a , s :in std_logic;
 			f : out std_logic);
@@ -19,7 +19,7 @@ architecture aInvertf of aInvert1 is  -- f gia function
 end aInvertf;
 
 
-------------	KUKLWMA FULL ADDER	-------------
+------------ FULL ADDER CIRCUIT	-------------
 LIBRARY ieee ;
 USE ieee.std_logic_1164.all ;
 entity fullAdder is
@@ -34,7 +34,7 @@ architecture fullAdderf of fullAdder is
 end fullAdderf;
 
 
------------ BASIKO KUKLWMA 1 BIT ------------
+----------- 1 BIT BASIC CIRCUIT ------------
 LIBRARY ieee ;
 USE ieee.std_logic_1164.all ;
 entity basic_circ is
